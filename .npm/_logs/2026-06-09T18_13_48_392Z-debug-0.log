@@ -1,0 +1,28 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.1
+2 info using node@v22.22.2
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/.npmrc
+5 silly config load:file:/etc/npmrc
+6 verbose title npm install @js-temporal/polyfill
+7 verbose argv "install" "@js-temporal/polyfill" "--save-prod"
+8 verbose logfile logs-max:10 dir:/home/.npm/_logs/2026-06-09T18_13_48_392Z-
+9 verbose logfile /home/.npm/_logs/2026-06-09T18_13_48_392Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly idealTree buildDeps
+13 silly fetch manifest @js-temporal/polyfill@^0.5.1
+14 silly packumentCache full:https://registry.npmjs.org/@js-temporal%2fpolyfill cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/@js-temporal%2fpolyfill 2417ms (cache revalidated)
+16 silly packumentCache full:https://registry.npmjs.org/@js-temporal%2fpolyfill set size:61695 disposed:false
+17 silly placeDep ROOT @js-temporal/polyfill@0.5.1 REPLACE for:  want: ^0.5.1
+18 silly reify moves {}
+19 silly audit bulk request { jsbi: [ '4.3.2' ], '@js-temporal/polyfill': [ '0.5.1' ] }
+20 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 329ms
+21 silly audit report {}
+22 verbose cwd /home
+23 verbose os Linux 5.15.189-android13-3-33504235
+24 verbose node v22.22.2
+25 verbose npm  v10.9.1
+26 verbose exit 0
+27 info ok

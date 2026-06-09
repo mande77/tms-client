@@ -1,0 +1,218 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.1
+2 info using node@v22.22.2
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/.npmrc
+5 silly config load:file:/etc/npmrc
+6 verbose title npm install ts-node typescript
+7 verbose argv "install" "--global" "ts-node" "typescript"
+8 verbose logfile logs-max:10 dir:/home/.npm/_logs/2026-06-09T17_51_44_668Z-
+9 verbose logfile /home/.npm/_logs/2026-06-09T17_51_44_668Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest ts-node@*
+14 silly packumentCache full:https://registry.npmjs.org/ts-node cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/ts-node 2866ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/ts-node set size:undefined disposed:false
+17 silly fetch manifest typescript@*
+18 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/typescript 606ms (cache revalidated)
+20 silly packumentCache full:https://registry.npmjs.org/typescript set size:15409943 disposed:false
+21 silly placeDep ROOT ts-node@10.9.2 OK for:  want: *
+22 silly placeDep ROOT typescript@6.0.3 OK for:  want: *
+23 silly fetch manifest typescript@>=2.7
+24 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+25 silly fetch manifest @types/node@*
+26 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+27 silly fetch manifest yn@3.1.1
+28 silly packumentCache full:https://registry.npmjs.org/yn cache-miss
+29 silly fetch manifest arg@^4.1.0
+30 silly packumentCache full:https://registry.npmjs.org/arg cache-miss
+31 silly fetch manifest diff@^4.0.1
+32 silly packumentCache full:https://registry.npmjs.org/diff cache-miss
+33 silly fetch manifest acorn@^8.4.1
+34 silly packumentCache full:https://registry.npmjs.org/acorn cache-miss
+35 silly fetch manifest acorn-walk@^8.1.1
+36 silly packumentCache full:https://registry.npmjs.org/acorn-walk cache-miss
+37 http cache https://registry.npmjs.org/typescript 156ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/typescript set size:15409943 disposed:false
+39 silly fetch manifest make-error@^1.1.1
+40 silly packumentCache full:https://registry.npmjs.org/make-error cache-miss
+41 http fetch GET https://registry.npmjs.org/yn attempt 1 failed with ETIMEDOUT
+42 http fetch GET https://registry.npmjs.org/diff attempt 1 failed with ETIMEDOUT
+43 http fetch GET https://registry.npmjs.org/acorn attempt 1 failed with ETIMEDOUT
+44 http fetch GET https://registry.npmjs.org/acorn-walk attempt 1 failed with ETIMEDOUT
+45 http fetch GET https://registry.npmjs.org/arg attempt 1 failed with ETIMEDOUT
+46 http fetch GET https://registry.npmjs.org/make-error attempt 1 failed with ETIMEDOUT
+47 http fetch GET 200 https://registry.npmjs.org/acorn-walk 16119ms attempt #2 (cache miss)
+48 silly packumentCache full:https://registry.npmjs.org/acorn-walk set size:undefined disposed:false
+49 silly fetch manifest create-require@^1.1.0
+50 silly packumentCache full:https://registry.npmjs.org/create-require cache-miss
+51 http fetch GET https://registry.npmjs.org/yn attempt 2 failed with ETIMEDOUT
+52 http fetch GET 200 https://registry.npmjs.org/make-error 21291ms attempt #2 (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/make-error set size:undefined disposed:false
+54 silly fetch manifest @tsconfig/node10@^1.0.7
+55 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode10 cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/arg 21654ms attempt #2 (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/arg set size:undefined disposed:false
+58 silly fetch manifest @tsconfig/node12@^1.0.7
+59 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode12 cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/acorn 21780ms attempt #2 (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/acorn set size:undefined disposed:false
+62 silly fetch manifest @tsconfig/node14@^1.0.0
+63 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode14 cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/create-require 5822ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/create-require set size:undefined disposed:false
+66 silly fetch manifest @tsconfig/node16@^1.0.2
+67 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode16 cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/diff 21970ms attempt #2 (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/diff set size:undefined disposed:false
+70 silly fetch manifest v8-compile-cache-lib@^3.0.1
+71 silly packumentCache full:https://registry.npmjs.org/v8-compile-cache-lib cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/v8-compile-cache-lib 263ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/v8-compile-cache-lib set size:undefined disposed:false
+74 silly fetch manifest @cspotcode/source-map-support@^0.8.0
+75 silly packumentCache full:https://registry.npmjs.org/@cspotcode%2fsource-map-support cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode12 2749ms (cache miss)
+77 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode12 set size:undefined disposed:false
+78 http fetch GET 200 https://registry.npmjs.org/@cspotcode%2fsource-map-support 7156ms (cache miss)
+79 silly packumentCache full:https://registry.npmjs.org/@cspotcode%2fsource-map-support set size:undefined disposed:false
+80 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode10 8830ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode10 set size:undefined disposed:false
+82 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode14 8977ms (cache miss)
+83 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode14 set size:undefined disposed:false
+84 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode16 8820ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode16 set size:undefined disposed:false
+86 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 31180ms (cache miss)
+87 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+88 http fetch GET 200 https://registry.npmjs.org/yn 77183ms attempt #3 (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/yn set size:undefined disposed:false
+90 silly placeDep node_modules/ts-node @cspotcode/source-map-support@0.8.1 OK for: ts-node@10.9.2 want: ^0.8.0
+91 silly placeDep node_modules/ts-node @tsconfig/node10@1.0.12 OK for: ts-node@10.9.2 want: ^1.0.7
+92 silly placeDep node_modules/ts-node @tsconfig/node12@1.0.11 OK for: ts-node@10.9.2 want: ^1.0.7
+93 silly placeDep node_modules/ts-node @tsconfig/node14@1.0.3 OK for: ts-node@10.9.2 want: ^1.0.0
+94 silly placeDep node_modules/ts-node @tsconfig/node16@1.0.4 OK for: ts-node@10.9.2 want: ^1.0.2
+95 silly placeDep node_modules/ts-node @types/node@25.9.2 OK for: ts-node@10.9.2 want: *
+96 silly placeDep node_modules/ts-node acorn@8.16.0 OK for: ts-node@10.9.2 want: ^8.4.1
+97 silly placeDep node_modules/ts-node acorn-walk@8.3.5 OK for: ts-node@10.9.2 want: ^8.1.1
+98 silly placeDep node_modules/ts-node arg@4.1.3 OK for: ts-node@10.9.2 want: ^4.1.0
+99 silly placeDep node_modules/ts-node create-require@1.1.1 OK for: ts-node@10.9.2 want: ^1.1.0
+100 silly placeDep node_modules/ts-node diff@4.0.4 OK for: ts-node@10.9.2 want: ^4.0.1
+101 silly placeDep node_modules/ts-node make-error@1.3.6 OK for: ts-node@10.9.2 want: ^1.1.1
+102 silly placeDep node_modules/ts-node v8-compile-cache-lib@3.0.1 OK for: ts-node@10.9.2 want: ^3.0.1
+103 silly placeDep node_modules/ts-node yn@3.1.1 OK for: ts-node@10.9.2 want: 3.1.1
+104 silly fetch manifest @jridgewell/trace-mapping@0.3.9
+105 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2ftrace-mapping cache-miss
+106 silly fetch manifest undici-types@>=7.24.0 <7.24.7
+107 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/undici-types 385ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/undici-types set size:undefined disposed:false
+110 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2ftrace-mapping 599ms (cache miss)
+111 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2ftrace-mapping set size:undefined disposed:false
+112 silly placeDep node_modules/ts-node @jridgewell/trace-mapping@0.3.9 OK for: @cspotcode/source-map-support@0.8.1 want: 0.3.9
+113 silly fetch manifest @jridgewell/resolve-uri@^3.0.3
+114 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fresolve-uri cache-miss
+115 silly fetch manifest @jridgewell/sourcemap-codec@^1.4.10
+116 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fresolve-uri 922ms (cache miss)
+118 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fresolve-uri set size:undefined disposed:false
+119 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 1017ms (cache miss)
+120 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec set size:undefined disposed:false
+121 silly placeDep node_modules/ts-node @jridgewell/resolve-uri@3.1.2 OK for: @jridgewell/trace-mapping@0.3.9 want: ^3.0.3
+122 silly placeDep node_modules/ts-node @jridgewell/sourcemap-codec@1.5.5 OK for: @jridgewell/trace-mapping@0.3.9 want: ^1.4.10
+123 silly placeDep node_modules/ts-node undici-types@7.24.6 OK for: @types/node@25.9.2 want: >=7.24.0 <7.24.7
+124 silly reify mark retired [
+124 silly reify   '/usr/local/lib/node_modules/typescript',
+124 silly reify   '/usr/local/bin/tsc',
+124 silly reify   '/usr/local/bin/tsserver'
+124 silly reify ]
+125 silly reify moves {
+125 silly reify   '/usr/local/lib/node_modules/typescript': '/usr/local/lib/node_modules/.typescript-U1UXj10a',
+125 silly reify   '/usr/local/bin/tsc': '/usr/local/bin/.tsc-u2EeHcne',
+125 silly reify   '/usr/local/bin/tsserver': '/usr/local/bin/.tsserver-bJFvYJo6'
+125 silly reify }
+126 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz 0ms (cache hit)
+127 http cache @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz 0ms (cache hit)
+128 http cache yn@https://registry.npmjs.org/yn/-/yn-3.1.1.tgz 0ms (cache hit)
+129 http cache v8-compile-cache-lib@https://registry.npmjs.org/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz 0ms (cache hit)
+130 http cache create-require@https://registry.npmjs.org/create-require/-/create-require-1.1.1.tgz 0ms (cache hit)
+131 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.24.6.tgz 0ms (cache hit)
+132 http cache @jridgewell/resolve-uri@https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 0ms (cache hit)
+133 http cache acorn-walk@https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.3.5.tgz 0ms (cache hit)
+134 http cache diff@https://registry.npmjs.org/diff/-/diff-4.0.4.tgz 0ms (cache hit)
+135 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-25.9.2.tgz 0ms (cache hit)
+136 http cache make-error@https://registry.npmjs.org/make-error/-/make-error-1.3.6.tgz 0ms (cache hit)
+137 http cache @tsconfig/node14@https://registry.npmjs.org/@tsconfig/node14/-/node14-1.0.3.tgz 0ms (cache hit)
+138 http cache arg@https://registry.npmjs.org/arg/-/arg-4.1.3.tgz 0ms (cache hit)
+139 http cache @tsconfig/node10@https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.12.tgz 0ms (cache hit)
+140 http cache @tsconfig/node12@https://registry.npmjs.org/@tsconfig/node12/-/node12-1.0.11.tgz 0ms (cache hit)
+141 http cache @tsconfig/node16@https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.4.tgz 0ms (cache hit)
+142 http cache @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz 0ms (cache hit)
+143 http cache @cspotcode/source-map-support@https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz 0ms (cache hit)
+144 http cache acorn@https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz 0ms (cache hit)
+145 silly tarball no local data for @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz. Extracting by manifest.
+146 silly tarball no local data for v8-compile-cache-lib@https://registry.npmjs.org/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz. Extracting by manifest.
+147 silly tarball no local data for create-require@https://registry.npmjs.org/create-require/-/create-require-1.1.1.tgz. Extracting by manifest.
+148 silly tarball no local data for yn@https://registry.npmjs.org/yn/-/yn-3.1.1.tgz. Extracting by manifest.
+149 http cache ts-node@https://registry.npmjs.org/ts-node/-/ts-node-10.9.2.tgz 0ms (cache hit)
+150 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.24.6.tgz. Extracting by manifest.
+151 silly tarball no local data for @jridgewell/resolve-uri@https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz. Extracting by manifest.
+152 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-25.9.2.tgz. Extracting by manifest.
+153 silly tarball no local data for make-error@https://registry.npmjs.org/make-error/-/make-error-1.3.6.tgz. Extracting by manifest.
+154 silly tarball no local data for acorn-walk@https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.3.5.tgz. Extracting by manifest.
+155 silly tarball no local data for @tsconfig/node14@https://registry.npmjs.org/@tsconfig/node14/-/node14-1.0.3.tgz. Extracting by manifest.
+156 silly tarball no local data for arg@https://registry.npmjs.org/arg/-/arg-4.1.3.tgz. Extracting by manifest.
+157 silly tarball no local data for @tsconfig/node12@https://registry.npmjs.org/@tsconfig/node12/-/node12-1.0.11.tgz. Extracting by manifest.
+158 silly tarball no local data for @tsconfig/node10@https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.12.tgz. Extracting by manifest.
+159 silly tarball no local data for diff@https://registry.npmjs.org/diff/-/diff-4.0.4.tgz. Extracting by manifest.
+160 silly tarball no local data for @tsconfig/node16@https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.4.tgz. Extracting by manifest.
+161 silly tarball no local data for @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz. Extracting by manifest.
+162 silly tarball no local data for @cspotcode/source-map-support@https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz. Extracting by manifest.
+163 silly tarball no local data for acorn@https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz. Extracting by manifest.
+164 silly tarball no local data for ts-node@https://registry.npmjs.org/ts-node/-/ts-node-10.9.2.tgz. Extracting by manifest.
+165 http fetch GET 200 https://registry.npmjs.org/create-require/-/create-require-1.1.1.tgz 350ms (cache miss)
+166 http fetch GET 200 https://registry.npmjs.org/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz 359ms (cache miss)
+167 http fetch GET 200 https://registry.npmjs.org/yn/-/yn-3.1.1.tgz 500ms (cache miss)
+168 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-7.24.6.tgz 564ms (cache miss)
+169 http fetch GET 200 https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 692ms (cache miss)
+170 http fetch GET 200 https://registry.npmjs.org/arg/-/arg-4.1.3.tgz 1172ms (cache miss)
+171 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz 1167ms (cache miss)
+172 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.4.tgz 1174ms (cache miss)
+173 http fetch GET 200 https://registry.npmjs.org/ts-node/-/ts-node-10.9.2.tgz 1258ms (cache miss)
+174 http fetch GET 200 https://registry.npmjs.org/diff/-/diff-4.0.4.tgz 1304ms (cache miss)
+175 http fetch GET 200 https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz 1343ms (cache miss)
+176 http fetch GET 200 https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.3.5.tgz 1427ms (cache miss)
+177 http fetch GET 200 https://registry.npmjs.org/make-error/-/make-error-1.3.6.tgz 1485ms (cache miss)
+178 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node12/-/node12-1.0.11.tgz 1531ms (cache miss)
+179 http fetch GET 200 https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz 1633ms (cache miss)
+180 http fetch GET 200 https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz 1732ms (cache miss)
+181 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node14/-/node14-1.0.3.tgz 1742ms (cache miss)
+182 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.12.tgz 2619ms (cache miss)
+183 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-25.9.2.tgz 2781ms (cache miss)
+184 silly ADD node_modules/ts-node
+185 silly ADD node_modules/ts-node/node_modules/undici-types
+186 silly ADD node_modules/ts-node/node_modules/@jridgewell/sourcemap-codec
+187 silly ADD node_modules/ts-node/node_modules/@jridgewell/resolve-uri
+188 silly ADD node_modules/ts-node/node_modules/@jridgewell/trace-mapping
+189 silly ADD node_modules/ts-node/node_modules/yn
+190 silly ADD node_modules/ts-node/node_modules/v8-compile-cache-lib
+191 silly ADD node_modules/ts-node/node_modules/make-error
+192 silly ADD node_modules/ts-node/node_modules/diff
+193 silly ADD node_modules/ts-node/node_modules/create-require
+194 silly ADD node_modules/ts-node/node_modules/arg
+195 silly ADD node_modules/ts-node/node_modules/acorn-walk
+196 silly ADD node_modules/ts-node/node_modules/acorn
+197 silly ADD node_modules/ts-node/node_modules/@types/node
+198 silly ADD node_modules/ts-node/node_modules/@tsconfig/node16
+199 silly ADD node_modules/ts-node/node_modules/@tsconfig/node14
+200 silly ADD node_modules/ts-node/node_modules/@tsconfig/node12
+201 silly ADD node_modules/ts-node/node_modules/@tsconfig/node10
+202 silly ADD node_modules/ts-node/node_modules/@cspotcode/source-map-support
+203 silly CHANGE node_modules/typescript
+204 verbose cwd /home
+205 verbose os Linux 5.15.189-android13-3-33504235
+206 verbose node v22.22.2
+207 verbose npm  v10.9.1
+208 verbose exit 0
+209 info ok

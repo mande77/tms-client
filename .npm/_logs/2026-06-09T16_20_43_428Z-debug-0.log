@@ -1,0 +1,38 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.1
+2 info using node@v22.22.2
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/.npmrc
+5 silly config load:file:/etc/npmrc
+6 verbose title npm install @js-temporal/polyfill
+7 verbose argv "install" "@js-temporal/polyfill"
+8 verbose logfile logs-max:10 dir:/home/.npm/_logs/2026-06-09T16_20_43_428Z-
+9 verbose logfile /home/.npm/_logs/2026-06-09T16_20_43_428Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly idealTree buildDeps
+13 silly fetch manifest @js-temporal/polyfill@*
+14 silly packumentCache full:https://registry.npmjs.org/@js-temporal%2fpolyfill cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/@js-temporal%2fpolyfill 1274ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/@js-temporal%2fpolyfill set size:undefined disposed:false
+17 silly placeDep ROOT @js-temporal/polyfill@0.5.1 OK for:  want: *
+18 silly fetch manifest jsbi@^4.3.0
+19 silly packumentCache full:https://registry.npmjs.org/jsbi cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/jsbi 607ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/jsbi set size:undefined disposed:false
+22 silly placeDep ROOT jsbi@4.3.2 OK for: @js-temporal/polyfill@0.5.1 want: ^4.3.0
+23 silly reify moves {}
+24 http cache jsbi@https://registry.npmjs.org/jsbi/-/jsbi-4.3.2.tgz 0ms (cache hit)
+25 http cache @js-temporal/polyfill@https://registry.npmjs.org/@js-temporal/polyfill/-/polyfill-0.5.1.tgz 0ms (cache hit)
+26 silly tarball no local data for jsbi@https://registry.npmjs.org/jsbi/-/jsbi-4.3.2.tgz. Extracting by manifest.
+27 silly tarball no local data for @js-temporal/polyfill@https://registry.npmjs.org/@js-temporal/polyfill/-/polyfill-0.5.1.tgz. Extracting by manifest.
+28 http fetch GET 200 https://registry.npmjs.org/jsbi/-/jsbi-4.3.2.tgz 277ms (cache miss)
+29 http fetch GET 200 https://registry.npmjs.org/@js-temporal/polyfill/-/polyfill-0.5.1.tgz 1331ms (cache miss)
+30 silly ADD node_modules/jsbi
+31 silly ADD node_modules/@js-temporal/polyfill
+32 verbose cwd /home
+33 verbose os Linux 5.15.189-android13-3-33504235
+34 verbose node v22.22.2
+35 verbose npm  v10.9.1
+36 verbose exit 0
+37 info ok
